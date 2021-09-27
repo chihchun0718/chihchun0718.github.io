@@ -1,0 +1,126 @@
+/* * {
+	border: 1px solid;
+} */
+
+
+/* Home page CSS */
+#navbarNav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-item .nav-link {
+  font-family: 'Stick No Bills', sans-serif;
+}
+
+
+#navbarNav li a {
+  display: inline-block;
+  font-size: 20px;
+  color: white;
+}
+
+/* .navbar-nav li a:hover {
+  background-color: rgb(10, 10, 9);
+  color: rgb(191, 194, 204);
+} */
+
+.mask p {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+	color: #fdfdfd;
+	font-family: Georgia, serif;
+	font-weight: 700;
+  margin-left: 3rem;
+}
+
+.container-footer .row {
+  text-align: center;
+}
+
+.footer-copyright {
+  background-color: #212121;
+  color: #fdfdfd;
+}
+
+.fab {
+  color: #c5cae9;
+}
+
+
+/* profile CSS me.html */
+
+.page-containor {
+  padding: 20px;
+}
+
+.personal {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.avatar img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 5px 20px;
+}
+
+.description {
+  margin: 20px 10px;  
+}
+
+.others {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.company {
+  text-align: center;
+}
+
+.education-skills {
+  margin: 5px 20px;
+}
+
+.experience {
+  margin: 5px 20px;
+}
+
+.job-d p {
+  font-size: 0.9rem;
+}
+
+/* contact me info page */
+
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.row .col-lg-6 {
+  margin: 20px 20px;
+}
+
+/* contact me 勾選字體會變色 */
+input:checked + label {
+ color: royalblue;
+ font-weight: bold;
+}
+
+/* 改變<label>標籤的margin */
+label {
+  display: inline-block;
+  margin-top: 5px;
+}
+
+#text-message {
+  margin: 5px 0px;
+}
